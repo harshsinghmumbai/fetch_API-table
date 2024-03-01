@@ -21,14 +21,14 @@ const App = () => {
   return (
     <>
       <table className=" bg-yellow-100  ">
-        <thead>
-          <tr>
-            <th className="border-2 bg-red-200 p-1" >ID</th>
-            <th className="border-2 bg-red-200 p-1" >Name</th>
-            <th className="border-2 bg-red-200 p-1" >UserName</th>
-            <th className="border-2 bg-red-200 p-1" >Email</th>
-            <th className="border-2 bg-red-200 p-1" >Website</th>
-            <th className="border-2 bg-red-200 p-1" >Address</th>
+        <thead /* table head top*/>
+          <tr /* table row */>
+            <th className="border-2 bg-red-200 p-1" /* table row cell */>ID</th>
+            <th className="border-2 bg-red-200 p-1" /* table row cell */>Name</th>
+            <th className="border-2 bg-red-200 p-1" /* table row cell */>UserName</th>
+            <th className="border-2 bg-red-200 p-1" /* table row cell */>Email</th>
+            <th className="border-2 bg-red-200 p-1" /* table row cell */>Website</th>
+            <th className="border-2 bg-red-200 p-1" /* table row cell */>Address</th>
           </tr>
         </thead>
         <tbody>

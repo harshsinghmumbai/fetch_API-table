@@ -6,13 +6,13 @@ const Userdata = ({ states }) => {
         const { id, name, username, email, website} = elm;
         const { street, city, zipcode } = elm.address;
         return (
-          <tr key={i}>
-            <td className="p-2 border-2 border-red-600">{id}</td>
-            <td className="p-2 border-2 border-red-600">{name}</td>
-            <td className="p-2 border-2 border-red-600">{username}</td>
-            <td className="p-2 border-2 border-red-600">{email}</td>
-            <td className="p-2 border-2 border-red-600">{website}</td>
-            <td className="p-2 border-2 border-red-600">
+          <tr key={i} /* table row */>
+            <td className="p-2 border-2 border-red-600" /* tbody row cell */>{id}</td>
+            <td className="p-2 border-2 border-red-600" /* tbody row cell */>{name}</td>
+            <td className="p-2 border-2 border-red-600" /* tbody row cell */>{username}</td>
+            <td className="p-2 border-2 border-red-600" /* tbody row cell */>{email}</td>
+            <td className="p-2 border-2 border-red-600" /* tbody row cell */>{website}</td>
+            <td className="p-2 border-2 border-red-600" /* tbody row cell */>
               {street},{city},{zipcode}
             </td>
           </tr>
