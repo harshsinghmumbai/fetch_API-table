@@ -20,15 +20,15 @@ const App = () => {
   });
   return (
     <>
-      <table>
+      <table className=" bg-yellow-100  ">
         <thead>
           <tr>
-            <th>ID</th>
-            <th>Name</th>
-            <th>UserName</th>
-            <th>Email</th>
-            <th>Website</th>
-            <th>Address</th>
+            <th className="border-2 bg-red-200 p-1" >ID</th>
+            <th className="border-2 bg-red-200 p-1" >Name</th>
+            <th className="border-2 bg-red-200 p-1" >UserName</th>
+            <th className="border-2 bg-red-200 p-1" >Email</th>
+            <th className="border-2 bg-red-200 p-1" >Website</th>
+            <th className="border-2 bg-red-200 p-1" >Address</th>
           </tr>
         </thead>
         <tbody>
